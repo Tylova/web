@@ -1,24 +1,138 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #f7bdea;
-    color: #000000;} 
+    background-color: #ffffff;
+    color: #000000;
+} 
     
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabulka v HTML</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width 100%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
+table {
+    border-collapse: collapse;
+    width 100%;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #14067d;
+}
+
+p { 
+    text-align: justify;
+    line-height: 20px;
+    margin: 20px;
+    
+}
+
+.dresy { 
+    text-align: justify;
+    line-height: 20px;
+    margin: 20px;
+    max-width: 700px;
+}
+
+h1 { margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #14067d;
+}
+
+h2 { color: #14067d;
+    margin: 20px;
+}
+
+h3 { color: #86bdf0;
+    margin: 20px;
+}
+
+a { color: #407de8;
+} 
+
+img { margin: 20px;
+
+}
+
+.video { margin: 20px;
+}
+
+.logo {
+    
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #14067d;
+    font-size: 35px;
+    font-weight: 1000;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #86bdf0;
+    
+    
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+
+  .seznam {
+    text-align: justify;
+    display:grid;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+   }
+
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #86bdf0;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:#14067d;
+  }
+
+
+
+  footer {
+    text-align: center;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #86bdf0;
+  }
+
